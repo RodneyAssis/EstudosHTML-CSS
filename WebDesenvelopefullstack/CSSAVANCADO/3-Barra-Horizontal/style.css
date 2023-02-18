@@ -1,0 +1,43 @@
+
+ul {
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid blue;
+    width: 720px;
+    float: left;
+    background: rgb(11, 146, 180) url("./img/fundo-horizontal.png") repeat-x;
+}
+
+ul li {
+    float:left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    background: url("../3-Barra-Horizontal/img/divisor.png") repeat-y;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+li a:hover {
+    background-color: rgb(8, 132, 233);
+}
+
+#home #navegacaohorizontal .home a,
+#noticias #navegacaohorizontal .noticias a,
+#sobre #navegacaohorizontal .sobre a,
+#contato #navegacaohorizontal .contato a {
+    background-color: rgb(52, 105, 202);
+
+}

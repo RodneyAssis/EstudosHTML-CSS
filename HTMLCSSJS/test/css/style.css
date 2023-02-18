@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#child {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: solid black;
+}

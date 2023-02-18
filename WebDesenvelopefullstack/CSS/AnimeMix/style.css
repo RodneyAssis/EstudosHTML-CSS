@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: left;
+    margin: 0 10px;
+}
+
+h2 {
+    padding: 6px 5px;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+#barradenav {
+    padding: 20px 0;
+    background-color: rgb(11, 11, 100);
+    color: aliceblue;
+}
+
+.Mapasite {
+    margin: 0 8px;
+}
+
+
+#Lançamento {
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.239)
+}
+
+#rodape {
+    text-align: center;
+}
+
+.Animes {
+    margin: 0 20px;
+    
+}
+
+.Animes img {
+    width: 13%;
+    border-radius: 5px;
+    border: 3px outset rgba(71, 61, 209, 0.829);
+}

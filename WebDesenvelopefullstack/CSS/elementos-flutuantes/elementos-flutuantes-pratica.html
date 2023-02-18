@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #principal { 
+        border: 2px red solid;
+        width: 85%;
+    }
+
+
+    .noticias {
+        background-color: rgb(238, 235, 235);
+        margin: 5px 5px;
+        padding: 0 5px;
+        border: solid;
+        width: 160px;
+        float: left;
+    }
+
+    #clear {
+        clear: both;
+        width: 97%;
+    }
+    #galeria {
+        border: solid black;
+    }
+    .fotos {
+        border: solid;
+        margin: 5px;
+        float: left;
+    }
+    img {
+        width: 160px;
+    }
+</style>
+<body>
+    <header id="principal"> <!--Inicio principal-->
+        <div class="noticia"> <!--Inicio noticia-->
+            <div class="noticias">
+                <h2>Conteudo1</h2>
+                <p>Em linguística, a noção de texto é ampla e ai
+                    nda aberta a uma definição mais precisa.</p>
+                    <a href="">Ler mais</a>
+            </div>
+            <div class="noticias">
+                <h2>Conteudo1</h2>
+                <p>Em linguística, a noção de texto é ampla e ai
+                    nda aberta a uma definição mais precisa.</p>
+                    <a href="">Ler mais</a>    
+            </div>
+            <div class="noticias">
+                <h2>Conteudo1</h2>
+                <p>Em linguística, a noção de texto é ampla e ai
+                    nda aberta a uma definição mais precisa.</p>
+                <a href="">Ler mais</a>
+            </div>
+            <div class="noticias">
+                <h2>Conteudo1</h2>
+                <p>Em linguística, a noção de texto é ampla e ai
+                    nda aberta a uma definição mais precisa.</p>
+                <a href="">Ler mais</a>
+            </div>
+        </div> <!--Fim noticia-->
+        <hr id="clear">
+        <div id="galeria"><!--Inicio galeria-->
+            <div class="fotos">
+                <img src="./img/imagem1.png" alt="">
+                <p>Resumo</p>
+            </div>
+            <div class="fotos">
+                <img src="./img/imagem2.png" alt="">
+                <p>Resumo</p>
+            </div>
+            <div class="fotos">
+                <img src="./img/imagem3.png" alt="">
+                <p>Resumo</p>
+            </div>
+            <div class="fotos">
+                <img src="./img/imagem4.png" alt="">
+                <p>Resumo</p>
+            </div>
+        </div><!--Fim galeria-->
+        <div id="clear"></div>
+    </header> <!--Fim princial-->
+    
+</body>
+</html>

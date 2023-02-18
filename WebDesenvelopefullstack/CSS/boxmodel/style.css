@@ -1,0 +1,19 @@
+/*
+padding = espaçamento interno
+margin = espaçamento externo
+width = largura
+heith
+*/
+
+#boxmodel {
+    border: black solid 2px;
+    padding-left: 20px;
+    height: 200px;
+    width: 200px;
+    
+}
+#content {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento - Estatico e Relativo</title>
+</head>
+<style type="text/css">
+body {
+    background: #a2ad91;
+}
+p {
+    width: 600px;
+}
+#position {
+    background: #3a2d32e7;
+    border-radius: 2px;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    /*position: static; >> Não altera em nada, pois o posicionamento padrão já é em static*/
+    position: static;
+}
+
+.relative {
+    border: 2px solid black;
+    position: relative;
+    /*Position: relative; >> O posicionamento ele é alterado apartir dos comandos. 
+    Top, Right, Buttom e Left.*/
+    top: 20px;
+    right: -300px;
+}
+</style>
+<body>
+    <div id="position">
+        <h1>Posicionamento Estatico</h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+    </div>
+    
+    <div id="position">
+        <h1>Posicionamento Relativo</h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+
+        <p class="relative">
+            P2 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+    </div>
+</body>
+</html>

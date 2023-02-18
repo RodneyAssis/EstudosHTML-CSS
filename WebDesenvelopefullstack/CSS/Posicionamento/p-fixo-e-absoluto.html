@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento - Fixo e Absoluto</title>
+</head>
+<style type="text/css">
+    body {
+        background: #d4f7dc;
+    }
+    p {
+        width: 300px;
+
+    }
+    .conteiner {
+        background: #e0846dd0;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 5px;
+        width: 900px;
+        /*Para o position absolute funcionar em um conteiner ele deve ser diferente
+         de um position static que vem como padrão.*/
+        position: relative;
+    }
+    #absolute {
+        border: solid black 2px;
+        margin: 5px;
+        position: absolute;
+        top: 120px;
+        right: 40px;
+    }
+    #fixed {
+        /*position: fixed; >>> A tag faz com que o elemento aplicado possa ser movimentado livremente e ficando fico na tela
+          mesmo com o rolamento do scroll.*/
+        background: #231b42;
+        border: solid black 2px;
+        width: auto;
+        margin: 0;
+        position: fixed;
+        right: 0px;
+        top: 0;
+    }
+
+</style>
+<body>
+    <div class="conteiner">
+        <h1>Posicionamento Absoluto</h1>
+        <p id="absolute">
+            Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+        </p>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+    </div>
+    <div class="conteiner">
+        <h1>Posicionamento Fixo</h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+        <p id="fixed">
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+        <p>
+            P1 Lorem ipsum dolor sit amet. Non modi quia sed
+            nisi earum rem quia magnam. Qui tempora necessitatibus
+            quo autem asperiores eum ipsa laborum ut autem itaque?
+            Qui eligendi voluptate et deleniti voluptas aut sunt alias.
+        </p>
+        <var></var>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .borda1 {
+        margin: 5px;
+        border: solid black 2px;
+        display: block;
+    }
+
+    .borda2 {
+        margin: 5px;
+        border: solid black 2px;
+        display: inline;
+    }
+
+    .borda3 {
+        margin: 5px;
+        border: solid black 2px;
+        display: inline-block;
+    }
+</style>
+
+<body>
+    <h1>Comando block</h1>
+    <!--Elementos Blocks: h1, p, table-->
+    <h1>bloco1</h1>
+    <p>bloco2</p>
+    <table>bloco3</table>
+
+    <span class="borda1">bloco1</span>
+    <span class="borda1">bloco1</span>
+    <hr>
+    
+    <h1>Comandos inline</h1>
+    <!--Elementos inline: a, span, img-->
+    <a href="">bloco1</a>
+    <span>bloco2</span>
+    <img src="" alt="bloco3">
+    <br><br>
+    <h1 class="borda2">bloco1</h1>
+    <h1 class="borda2">bloco1</h1>
+    <hr>
+
+    <h1>Comando Inline-Block</h1>
+    <!--O elemento inline-block só realizará seu processo de forma correta, ele precisa realizar uma quebra de linha-->
+    <span class="borda3">There are many variations of passages of 
+        Lorem Ipsum available, but the majority have suffered 
+        alteration in some form, by injected humour, or
+        randomised words which don't look even slightly
+        believable.randomised words which don't look
+        even slightly believable.</span>
+    <span class="borda3">bloco2</span>
+    <!---->
+
+</body>
+</html>

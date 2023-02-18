@@ -1,0 +1,68 @@
+body {
+    color: #444;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    height: 96vh;
+}
+
+#app {
+    width: 512px;
+    margin: auto;
+    box-shadow: 4px 4px 20px rgb(151, 151, 151);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+.center {
+    text-align: center;
+}
+
+.StartHidden {
+    display: none;
+}
+
+h3 {
+    margin: 4px;
+}
+
+input {
+    width: 420px;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+    border:rgb(207, 201, 201) 1px solid;
+    font-size: 15px;
+    outline: none;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 6px;
+    margin: 4px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    opacity: 0.64;
+    cursor: pointer;
+}
+
+p {
+    margin: 0px;
+}
+
+
+#alternative button:hover {
+    background-color: #444;
+}
+
+#loading{
+    position:absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    z-index: 1;
+}

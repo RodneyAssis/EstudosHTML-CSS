@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none; ;
+    margin: 0;
+    padding: 0;
+}
+
+ul a{
+    height: 40px;
+    width: 200px;
+    display: block;
+    border: 1px solid rgb(255, 51, 0);
+    
+    background: url('../2-Marcando-Pagina-Atual/arquivos-necessarios-barra-navegacao-vertical/menu.png') 
+}
+
+ul a:hover {
+    background-position: right bottom;
+    color: aliceblue;
+}
+
+ul a:active {
+    background-position: left bottom;
+}
+a {
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+#home #navecagao-inicial .home a,
+#sobre #navecagao-inicial .sobre a,
+#servicos #navecagao-inicial .servicos a,
+#noticias #navecagao-inicial .noticias a,
+#contatos #navecagao-inicial .contatos a
+ {
+    background-position: right bottom;
+    color: aliceblue;
+}

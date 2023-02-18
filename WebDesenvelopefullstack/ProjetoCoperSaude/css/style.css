@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 248, 248);
+}
+
+#line {
+    padding: 0;
+    margin: 2.5px 0;
+}
+
+#cabecalho {
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0px 10px 0 #d4d1d1a2;
+    }
+
+#rodape {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    text-align: center;
+}
+
+#logomain {
+    display: flex;
+    align-items: center;
+}
+
+#logomain img {
+    transform: rotate(270deg);
+}
+
+#app {
+    border: solid black;
+}
+
+h1 {
+    color: rgb(250, 4, 86);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#animationlogo:hover {
+    color: rgb(236, 59, 118);
+}
+
+#logo span{
+    margin: auto;
+    padding: 0;
+    color: black;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 9px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -9px) rotate(45deg);
+  }
+
+#iconmenu {
+    width: 29px;
+    max-height: 100%;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+
+}
+
+#iconlogin {
+    width: 35px;
+    max-height: 100%;
+}
+
+#menu {
+    text-align: center;
+    margin-top: 4px;
+}
+
+#menu a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    color: rgb(250, 4, 86);
+}
+
+#menu a:active {
+    color: rgb(185, 13, 70);
+}
+
+#conteiners {
+    background-color: white;
+    box-shadow: 0 0px 10px 0 #d4d1d1a2;
+    margin: 30px 0;
+    padding: 10px;
+    width: auto;
+    height: 400px;
+}
+
+#noticias {
+    background-color: white;
+    height: 400px;
+    padding: 0 10px;
+}
+
+#noticias h2 {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: rgb(250, 4, 86);
+}
+
+#abasnoticias {
+    border: solid red 2px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+}
+
+#noticiamain {
+    border: solid green 2px;
+    margin: 10px 0;
+    padding: 0 10px;
+    width: 50%;
+}
+
+.subtitulo {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+#imgtituloprincipal {
+    background-color: #333;
+    height: 220px;
+}
+
+#maisnoticias {
+    border: solid yellow 2px;
+    margin: 10px 0;
+    padding: 0 10px;
+    width: 50%;
+}
+

@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(200, 201, 202);
+    display: flex;
+    /*Centro da resolução*/
+    height: 95vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#app {
+    background-color: rgba(199, 195, 195, 0.651);
+    margin: auto;
+    width: 450px;
+    text-align: center;
+    color: rgb(31, 31, 31);
+    padding: 8px;
+    border: 2px solid rgb(182, 180, 180);
+    box-shadow: 4px 4px 20px rgb(59, 58, 58);
+    border-radius: 20px;
+}
+
+input {
+    width: 350px;
+    padding: 4px;
+    margin: 4px;
+    font-size: 16px;
+    border: 1px solid rgb(143, 142, 142);
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(53, 53, 53);
+    border-radius: 4px;
+    border: solid 1px;
+    padding: 4px 8px;
+}
+
+button:hover {
+    opacity: 0.65;
+}
+
+#logInLogOut {
+    margin: 4px;
+}
+
+.startHidden {
+    display: none;
+}

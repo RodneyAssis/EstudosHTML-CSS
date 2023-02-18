@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: gray url(./img/fundo.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.conteiners {
+    margin: 2px auto;
+    width: 907px;
+}
+#capa img{
+    box-shadow: 3px 3px 7px rgba(92, 91, 91, 0.438);
+    margin-top: 15px;
+    border: honeydew solid 4px;
+    border-radius: 3px;
+}
+
+#barradenav {
+    margin-top: 5px;
+    padding: 15px;
+    box-shadow: 3px 3px 7px rgba(92, 91, 91, 0.438);
+    border-radius: 3px;
+    background-color: rgba(164, 179, 155, 0.801);
+    font-weight: bolder;
+}
+
+a {
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.folha-texto {
+    box-shadow: 3px 3px 7px rgba(92, 91, 91, 0.438);
+    border-radius: 3px;
+    background-color:rgb(238, 240, 238);
+    margin-top: 10px;
+    padding: 3px 15px;    
+}
+
+.folha-texto h1 {
+    padding: 0 40px;
+}
+
+.folha-texto img {
+    border: rgb(173, 173, 173) solid 7px;
+    height: 400px;
+    width: 70%;
+    margin: 0 120px;    
+}
+
+.folha-texto p {
+    padding: 0px 30px;
+    padding-top: 10px;
+}
+
+#contatos {
+    padding: 0px 130px;
+    font-size: 15px;
+    font-family: Calibri, 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding-bottom: 7px;
+}
+
+.titulo {
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: oblique;
+    
+}
+
+.texto {
+    
+    font-size: 15px;
+    font-family: Calibri, 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+.rodape {
+    padding: 0;
+    margin: 0;
+    font-family: Calibri, 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight:550;
+    text-align: center;
+}
+

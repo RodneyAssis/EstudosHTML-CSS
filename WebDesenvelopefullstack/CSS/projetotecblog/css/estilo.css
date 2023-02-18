@@ -1,0 +1,143 @@
+/*Limpar as formatações padrões*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em; /*Unidade de medida de 16px*/
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background-color:rgb(238, 236, 236);
+}
+
+/***
+Layouts
+***/
+
+#area-cabecalho {
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    padding: 25px;
+}
+
+#area-cabecalho, #area-menu {
+    padding: 10px;
+}
+
+/***
+Formatações da Logo
+***/
+
+#area-logo {
+    color: rgb(90, 88, 88);
+    font-size: 2.5em;
+    text-decoration: wavy;
+}
+
+#logo-color2 {
+    color: white;
+}
+
+/***
+    Formatação do menu
+***/
+
+a{
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+}
+
+a:hover {
+    text-decoration: underline;  
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    background: #fff;
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+}
+
+/***
+    Formatação da area-principal/Layouts
+***/
+
+#area-principal{
+    margin: 15px auto;
+    width: 920px; 
+}
+
+.area-postagens {
+    border-radius: 5px;
+    background-color: #fff;
+    width: 660px;
+    padding: 5px;
+    float: left;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+
+.area-lateral {
+    border-radius: 5px;
+    background-color: #fff;
+    width: 220px;
+    padding: 5px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#area-rodape {
+    border-radius: 2px;
+    background-color: #ccc;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+}
+
+/***
+    Formatação dos conteudos
+***/
+.conteudos {
+    padding: 20px 20px;
+}
+
+.area-noticia {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.titulo {
+    color: rgb(255, 208, 0);
+}
+
+.subtitulo {
+    font-size: 0.8em;
+}
+
+.Imagens {
+    text-align: center;
+}
+
+.Imagens img {
+    width: 620px;
+}
+
+.noticias-completa {
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+/***
+    Formatação da area lateral
+***/
+
+.area-lateral h3 {
+    background-color: #ccc;
+    padding: 5px;
+    margin: 5px 0;
+}
